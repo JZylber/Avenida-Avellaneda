@@ -1,5 +1,5 @@
 let producto = prompt("Ingrese el producto");
-let cantidad = prompt("Ingrese la cantidad");
+let cantidad = parseInt(prompt("Ingrese la cantidad"));
 let precio = 0;
 if (producto === "pantalon") {
   precio = calcularPrecioTotal(cantidad, 1500, 1000, 3);
